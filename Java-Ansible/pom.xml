@@ -36,16 +36,16 @@
 		</dependency>
 	</dependencies>
 	<distributionManagement>
-		<repository>
-			<id>central</id>
-			<name>a0aieryamikkj-artifactory-primary-0-releases</name>
-			<url>https://sidha.jfrog.io/artifactory/sample</url>
-		</repository>
-		<snapshotRepository>
-			<id>snapshots</id>
-			<name>a0aieryamikkj-artifactory-primary-0-snapshots</name>
-			<url>https://sidha.jfrog.io/artifactory/sample</url>
-		</snapshotRepository>
+	    <repository>
+		<id>central</id>
+		<name>a0aieryamikkj-artifactory-primary-0-releases</name>
+		<url>https://sidha.jfrog.io/artifactory/Maven1</url>
+	    </repository>
+	    <snapshotRepository>
+		<id>snapshots</id>
+		<name>a0aieryamikkj-artifactory-primary-0-snapshots</name>
+		<url>https://sidha.jfrog.io/artifactory/Maven1</url>
+	    </snapshotRepository>
 	</distributionManagement>
 
 	<build>
